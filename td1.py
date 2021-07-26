@@ -44,3 +44,14 @@ def odd_number():
     number = float(input("type a number: "))
     print(f"{number} is ", end='')
     print("odd " if number % 2 != 0 else "not odd")
+
+'''
+Exercice 6: Ecrire un programme en langage Python qui demande
+à l’utilisateur de saisir son âge et de lui afficher le message
+« vous êtes Majeur ! » si l’âge tapé est supérieur ou égale à 18
+et le message « vous êtes mineur ! » si l’âge tapé est inférieur à 18
+'''
+def major():
+    age = float(input("type your age: "))
+    print("you are ", end='')
+    print("major" if age >= 18 else "not major")
