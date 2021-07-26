@@ -34,3 +34,13 @@ les 100 premiers nombres entiers
 def first_hundred_numbers():
     for i in range(100):
         print(i, end=',')
+    
+'''
+Exercice 5: Ecrire un programme en langage Python qui demande
+à l’utilisateur de saisir son nombre entier et de lui afficher
+si ce nombre est pair ou impair
+'''
+def odd_number():
+    number = float(input("type a number: "))
+    print(f"{number} is ", end='')
+    print("odd " if number % 2 != 0 else "not odd")
