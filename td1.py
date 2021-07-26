@@ -55,3 +55,13 @@ def major():
     age = float(input("type your age: "))
     print("you are ", end='')
     print("major" if age >= 18 else "not major")
+
+'''
+Exercice 7: Ecrire un programme en Python qui demande à l’utilisateur
+de saisir 3 nombre x, y et z et de lui afficher leur maximum
+'''
+def max_of_three():
+    first_number = float(input("type the first number: "))
+    second_number = float(input("type the second number: "))
+    third_number = float(input("type the third number: "))
+    print("max is ", max(first_number, second_number, third_number))
