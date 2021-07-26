@@ -26,3 +26,11 @@ def not_built_in_max():
     first_number = float(input("type the first number: "))
     second_number = float(input("type the second number: "))
     print(first_number if (first_number > second_number) else second_number)
+
+'''
+Exercice 4: Ecrire un programme en langage Python qui affiche
+les 100 premiers nombres entiers
+'''
+def first_hundred_numbers():
+    for i in range(100):
+        print(i, end=',')
