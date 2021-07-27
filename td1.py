@@ -65,3 +65,15 @@ def max_of_three():
     second_number = float(input("type the second number: "))
     third_number = float(input("type the third number: "))
     print("max is ", max(first_number, second_number, third_number))
+
+'''
+Exercice 8: Ecrire un programme en Python qui demande à l’utilisateur
+de saisir un nombre entier n et de lui afficher
+la valeur de la somme 1 + 2 + … + n =
+'''
+def reccurent_sum():
+    number = float(input("type a number: "))
+    final_sum = 0
+    for n in range(1, number+1):
+        final_sum += n
+    print("sum is " + final_sum)
