@@ -77,3 +77,13 @@ def reccurent_sum():
     for n in range(1, number+1):
         final_sum += n
     print("sum is " + final_sum)
+
+'''
+Exercice 9: Ecrire un programme en Python qui demande à l’utilisateur
+de saisir un nombre entier n et de lui afficher n !
+'''
+def recur_factorial(n):  
+   if n == 1:  
+       return n  
+   else:  
+       return n*recur_factorial(n-1)  
